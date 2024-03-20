@@ -1,0 +1,14 @@
+body{
+    background-color: #ffd000;
+}
+.logo {
+    height: 35px;
+}
+h1 {
+    font-size: 32px;
+}
+.testo {
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 15px;
+}
