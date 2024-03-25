@@ -35,7 +35,7 @@ img {
     padding: 10px;
 }
 
-section {
+#flexbox {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -45,4 +45,17 @@ section {
 
 #image {
     border: 3px solid red;
+}
+
+#parent-grid {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+}
+
+#parent-grid figure {
+    margin: 6px 6px 20px 6px;
+}
+
+#parent-grid figure img {
+    width: 150px;
 }
