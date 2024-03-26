@@ -1,0 +1,31 @@
+.anim1 {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 0, 140);
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+
+.anim1:hover {
+    transform: translateX(50px);
+}
+
+.anim2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 106, 255);
+    animation-name: animazionecubo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animazionecubo {
+    0% {
+        background-color: blue;
+    }
+    100% {
+        background-color: red;
+    }
+}
